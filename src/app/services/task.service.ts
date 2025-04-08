@@ -7,6 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class TaskService {
 
+  Texto: text [] = DataText;
+
   constructor(private http: HttpClient) {
     console.log('TaskService initialized');
   }
